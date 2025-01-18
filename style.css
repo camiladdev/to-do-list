@@ -1,0 +1,70 @@
+
+body {
+    font-family: Arial, sans-serif; 
+    display: flex; /* usa flexbox para centralizar os elementos na tela */
+    justify-content: center; /* centraliza horizontalmente */
+    align-items: center; /* centraliza verticalmente */
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Estilizando a caixa principal (container) */
+
+.container { /* é a caixa branca central */
+    background: white; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* adiciona sombra leve para dar efeito de profundidade */
+    width: 300px; 
+}
+
+h2 {
+    text-align: center; /* centraliza no centro da caixa */
+}
+
+.input-area {
+    display: flex; /* organiza o campo de input e o botão um ao lado do outro (flexbox) */
+}
+
+input {
+    flex: 1; /* faz com que o input ocupe o espaço disponível */
+    padding: 10px;
+    border: 1px solid #ccc; /* borda cinza clara */
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    margin-left: 5px; /* add espaço entre o input e botão */
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer; /* deixa o cursor como uma mãozinha */
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none; /* remove os pontos padrões */
+    padding: 0;
+    margin-top: 10px; /* 10px; add espaço acima da lista para separação */
+}
+
+li {
+    display: flex; /* organiza os itens da lista (texto e botão "x") um ao lado do outro */
+    justify-content: space-between; 
+    padding: 8px;
+    background: #eee;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.done { /* classe add quando o usuário clica na tarefa para concluir */
+    text-decoration: line-through; /* risca o texto da tarefa que foi concluída */
+    color: gray; /* deixa texto cinza para diferenciar */
+}
+
+
+
+
+
+
